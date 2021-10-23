@@ -1,0 +1,92 @@
+.header{
+    display: grid;
+    grid-template-columns: 3vw auto;
+
+
+}
+h1{
+    color: #e66363;
+    text-align: center;
+}
+
+h2 {
+    color: #e66363;
+    text-align: center;
+
+}
+
+#logo{
+    width: 10vw;
+    align-self: stretch;
+    
+}
+.header_options{
+    background-color: rgb(127, 174, 245);
+}
+.list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+list-style: none;
+justify-content: center;
+align-items: center;
+display: flex;
+text-align:center;
+}
+li{
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    
+}
+a{
+    color: rgb(244, 249, 250);
+    margin: 120px;
+}
+
+.notify{
+  
+   border: aquamarine;
+   outline-color: aquamarine;
+   outline-style: solid;
+   grid-column: 2;
+   grid-row: 1/5;
+}
+
+.helpdesk{
+    border: #e66363;
+    outline-color: blue;
+    outline-style: solid;
+}
+.login_container{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+   
+}
+.user_password{
+    background-color: aquamarine;
+}
+.login_button{
+    justify-content: center;
+}
+#lgn{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #4CAF50; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    font-size: 16px;
+}
